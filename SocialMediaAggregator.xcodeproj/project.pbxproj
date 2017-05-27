@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2971761DEDC9C0009B5B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2971741DEDC9C0009B5B65 /* Main.storyboard */; };
+		FA2BBC7C1E9C06A000CABC03 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA2BBC7B1E9C06A000CABC03 /* TwitterKitResources.bundle */; };
+		FA2BBC801E9C072B00CABC03 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BBC7D1E9C072B00CABC03 /* Fabric.framework */; };
+		FA2BBC811E9C072B00CABC03 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BBC7E1E9C072B00CABC03 /* TwitterCore.framework */; };
+		FA2BBC821E9C072B00CABC03 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BBC7F1E9C072B00CABC03 /* TwitterKit.framework */; };
+		FA2BBC841E9D1CB500CABC03 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BBC831E9D1CB500CABC03 /* MenuController.swift */; };
+		FA2BBC861E9D1F9500CABC03 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BBC851E9D1F9500CABC03 /* TabBarController.swift */; };
+		FA2BBC881E9D24C200CABC03 /* SideWindowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BBC871E9D24C200CABC03 /* SideWindowCell.swift */; };
+		FA2BBC8A1E9F9AFD00CABC03 /* SideWindowProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BBC891E9F9AFD00CABC03 /* SideWindowProfile.swift */; };
+		FA44D39E1EA7BF9A00AD1F33 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA22CB1E4CB7A70046E71C /* Feed.swift */; };
+		FA44D39F1EA817DC00AD1F33 /* SocialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA22C81E4A0D760046E71C /* SocialCell.swift */; };
+		FA8FDDB51DE51685006E50E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FDDB41DE51685006E50E2 /* AppDelegate.swift */; };
+		FA8FDDB71DE51685006E50E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FDDB61DE51685006E50E2 /* ViewController.swift */; };
+		FA8FDDBC1DE51685006E50E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8FDDBB1DE51685006E50E2 /* Assets.xcassets */; };
+		FA8FDDBF1DE51685006E50E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8FDDBD1DE51685006E50E2 /* LaunchScreen.storyboard */; };
+		FA8FDDCA1DE51685006E50E2 /* SocialMediaAggregatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FDDC91DE51685006E50E2 /* SocialMediaAggregatorTests.swift */; };
+		FA8FDDD51DE51685006E50E2 /* SocialMediaAggregatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FDDD41DE51685006E50E2 /* SocialMediaAggregatorUITests.swift */; };
+		FA8FDDE71DE516E1006E50E2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8FDDE31DE516E1006E50E2 /* Bolts.framework */; };
+		FA8FDDE81DE516E1006E50E2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8FDDE41DE516E1006E50E2 /* FBSDKCoreKit.framework */; };
+		FA8FDDE91DE516E1006E50E2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8FDDE51DE516E1006E50E2 /* FBSDKLoginKit.framework */; };
+		FA8FDDEA1DE516E1006E50E2 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8FDDE61DE516E1006E50E2 /* FBSDKShareKit.framework */; };
+		FA8FDE371DE5219D006E50E2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8FDE361DE5219D006E50E2 /* NotificationCenter.framework */; };
+		FA8FDE4C1DE521C9006E50E2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8FDE361DE5219D006E50E2 /* NotificationCenter.framework */; };
+		FA8FDE4F1DE521C9006E50E2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FDE4E1DE521C9006E50E2 /* TodayViewController.swift */; };
+		FA8FDE521DE521C9006E50E2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8FDE501DE521C9006E50E2 /* MainInterface.storyboard */; };
+		FA8FDE561DE521C9006E50E2 /* SocialMediaAggregator_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA8FDE4B1DE521C9006E50E2 /* SocialMediaAggregator_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA8FDE7B1DE75E2B006E50E2 /* TweetFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FDE7A1DE75E2B006E50E2 /* TweetFeed.swift */; };
+		FAEA22C91E4A0D760046E71C /* SocialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA22C81E4A0D760046E71C /* SocialCell.swift */; };
+		FAEA22CC1E4CB7A70046E71C /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA22CB1E4CB7A70046E71C /* Feed.swift */; };
+		FAFAC1801EA791A70068BCE1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFAC17D1EA791A70068BCE1 /* Fabric.framework */; };
+		FAFAC1811EA791A70068BCE1 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFAC17E1EA791A70068BCE1 /* TwitterCore.framework */; };
+		FAFAC1821EA791A70068BCE1 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFAC17F1EA791A70068BCE1 /* TwitterKit.framework */; };
+		FAFAC1851EA7A0870068BCE1 /* TwitterLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAC1841EA7A0870068BCE1 /* TwitterLoader.swift */; };
+		FAFAC1861EA7A0FB0068BCE1 /* TwitterLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAC1841EA7A0870068BCE1 /* TwitterLoader.swift */; };
+		FAFAC1871EA7A4CD0068BCE1 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA2BBC7B1E9C06A000CABC03 /* TwitterKitResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8FDDC61DE51685006E50E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8FDDA91DE51685006E50E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8FDDB01DE51685006E50E2;
+			remoteInfo = SocialMediaAggregator;
+		};
+		FA8FDDD11DE51685006E50E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8FDDA91DE51685006E50E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8FDDB01DE51685006E50E2;
+			remoteInfo = SocialMediaAggregator;
+		};
+		FA8FDE541DE521C9006E50E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8FDDA91DE51685006E50E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8FDE4A1DE521C9006E50E2;
+			remoteInfo = SocialMediaAggregator_Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA8FDE461DE5219D006E50E2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA8FDE561DE521C9006E50E2 /* SocialMediaAggregator_Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA2971751DEDC9C0009B5B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2BBC7B1E9C06A000CABC03 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		FA2BBC7D1E9C072B00CABC03 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../../.Trash/Fabric.framework; sourceTree = "<group>"; };
+		FA2BBC7E1E9C072B00CABC03 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = ../../.Trash/TwitterCore.framework; sourceTree = "<group>"; };
+		FA2BBC7F1E9C072B00CABC03 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = ../../.Trash/TwitterKit.framework; sourceTree = "<group>"; };
+		FA2BBC831E9D1CB500CABC03 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FA2BBC851E9D1F9500CABC03 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA2BBC871E9D24C200CABC03 /* SideWindowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideWindowCell.swift; sourceTree = "<group>"; };
+		FA2BBC891E9F9AFD00CABC03 /* SideWindowProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideWindowProfile.swift; sourceTree = "<group>"; };
+		FA8FDDB11DE51685006E50E2 /* SocialMediaAggregator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaAggregator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8FDDB41DE51685006E50E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8FDDB61DE51685006E50E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA8FDDBB1DE51685006E50E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8FDDBE1DE51685006E50E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8FDDC01DE51685006E50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8FDDC51DE51685006E50E2 /* SocialMediaAggregatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMediaAggregatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8FDDC91DE51685006E50E2 /* SocialMediaAggregatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaAggregatorTests.swift; sourceTree = "<group>"; };
+		FA8FDDCB1DE51685006E50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8FDDD01DE51685006E50E2 /* SocialMediaAggregatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMediaAggregatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8FDDD41DE51685006E50E2 /* SocialMediaAggregatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaAggregatorUITests.swift; sourceTree = "<group>"; };
+		FA8FDDD61DE51685006E50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8FDDE31DE516E1006E50E2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		FA8FDDE41DE516E1006E50E2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FA8FDDE51DE516E1006E50E2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FA8FDDE61DE516E1006E50E2 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		FA8FDE2F1DE51B00006E50E2 /* SocialMediaAggregator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialMediaAggregator-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA8FDE301DE5209F006E50E2 /* SocialMediaAggregator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaAggregator.entitlements; sourceTree = "<group>"; };
+		FA8FDE351DE5219D006E50E2 /* SocialMediaAggregatorWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SocialMediaAggregatorWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8FDE361DE5219D006E50E2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FA8FDE4B1DE521C9006E50E2 /* SocialMediaAggregator_Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SocialMediaAggregator_Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8FDE4E1DE521C9006E50E2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		FA8FDE511DE521C9006E50E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FA8FDE531DE521C9006E50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8FDE5A1DE528B3006E50E2 /* SocialMediaAggregator_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaAggregator_Widget.entitlements; sourceTree = "<group>"; };
+		FA8FDE7A1DE75E2B006E50E2 /* TweetFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetFeed.swift; sourceTree = "<group>"; };
+		FAEA22C81E4A0D760046E71C /* SocialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialCell.swift; sourceTree = "<group>"; };
+		FAEA22CB1E4CB7A70046E71C /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		FAFAC17D1EA791A70068BCE1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		FAFAC17E1EA791A70068BCE1 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		FAFAC17F1EA791A70068BCE1 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		FAFAC1841EA7A0870068BCE1 /* TwitterLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8FDDAE1DE51685006E50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FDDEA1DE516E1006E50E2 /* FBSDKShareKit.framework in Frameworks */,
+				FA2BBC811E9C072B00CABC03 /* TwitterCore.framework in Frameworks */,
+				FA2BBC801E9C072B00CABC03 /* Fabric.framework in Frameworks */,
+				FA8FDDE71DE516E1006E50E2 /* Bolts.framework in Frameworks */,
+				FA8FDDE81DE516E1006E50E2 /* FBSDKCoreKit.framework in Frameworks */,
+				FA8FDDE91DE516E1006E50E2 /* FBSDKLoginKit.framework in Frameworks */,
+				FA2BBC821E9C072B00CABC03 /* TwitterKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDDC21DE51685006E50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDDCD1DE51685006E50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDE321DE5219D006E50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FDE371DE5219D006E50E2 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDE481DE521C9006E50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFAC1801EA791A70068BCE1 /* Fabric.framework in Frameworks */,
+				FAFAC1811EA791A70068BCE1 /* TwitterCore.framework in Frameworks */,
+				FAFAC1821EA791A70068BCE1 /* TwitterKit.framework in Frameworks */,
+				FA8FDE4C1DE521C9006E50E2 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8FDDA81DE51685006E50E2 = {
+			isa = PBXGroup;
+			children = (
+				FA8FDE4D1DE521C9006E50E2 /* SocialMediaAggregator_Widget */,
+				FA8FDDE21DE516CC006E50E2 /* Frameworks */,
+				FA8FDDB31DE51685006E50E2 /* SocialMediaAggregator */,
+				FA8FDDC81DE51685006E50E2 /* SocialMediaAggregatorTests */,
+				FA8FDDD31DE51685006E50E2 /* SocialMediaAggregatorUITests */,
+				FA8FDDB21DE51685006E50E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8FDDB21DE51685006E50E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8FDDB11DE51685006E50E2 /* SocialMediaAggregator.app */,
+				FA8FDDC51DE51685006E50E2 /* SocialMediaAggregatorTests.xctest */,
+				FA8FDDD01DE51685006E50E2 /* SocialMediaAggregatorUITests.xctest */,
+				FA8FDE351DE5219D006E50E2 /* SocialMediaAggregatorWidget.appex */,
+				FA8FDE4B1DE521C9006E50E2 /* SocialMediaAggregator_Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8FDDB31DE51685006E50E2 /* SocialMediaAggregator */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA22CA1E4CB7980046E71C /* Model */,
+				FAEA22C71E4A0D560046E71C /* Views */,
+				FAE7DB301E428BFB00EAD72D /* Storyboards */,
+				FAE7DB2F1E428BEA00EAD72D /* Controllers */,
+				FA8FDDBB1DE51685006E50E2 /* Assets.xcassets */,
+				FA8FDDB41DE51685006E50E2 /* AppDelegate.swift */,
+				FA8FDE7A1DE75E2B006E50E2 /* TweetFeed.swift */,
+				FAE7DB311E428C2A00EAD72D /* Other */,
+			);
+			path = SocialMediaAggregator;
+			sourceTree = "<group>";
+		};
+		FA8FDDC81DE51685006E50E2 /* SocialMediaAggregatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8FDDC91DE51685006E50E2 /* SocialMediaAggregatorTests.swift */,
+				FA8FDDCB1DE51685006E50E2 /* Info.plist */,
+			);
+			path = SocialMediaAggregatorTests;
+			sourceTree = "<group>";
+		};
+		FA8FDDD31DE51685006E50E2 /* SocialMediaAggregatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8FDDD41DE51685006E50E2 /* SocialMediaAggregatorUITests.swift */,
+				FA8FDDD61DE51685006E50E2 /* Info.plist */,
+			);
+			path = SocialMediaAggregatorUITests;
+			sourceTree = "<group>";
+		};
+		FA8FDDE21DE516CC006E50E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAFAC17D1EA791A70068BCE1 /* Fabric.framework */,
+				FAFAC17E1EA791A70068BCE1 /* TwitterCore.framework */,
+				FAFAC17F1EA791A70068BCE1 /* TwitterKit.framework */,
+				FA2BBC7D1E9C072B00CABC03 /* Fabric.framework */,
+				FA2BBC7E1E9C072B00CABC03 /* TwitterCore.framework */,
+				FA2BBC7F1E9C072B00CABC03 /* TwitterKit.framework */,
+				FA2BBC7B1E9C06A000CABC03 /* TwitterKitResources.bundle */,
+				FA8FDDE31DE516E1006E50E2 /* Bolts.framework */,
+				FA8FDDE41DE516E1006E50E2 /* FBSDKCoreKit.framework */,
+				FA8FDDE51DE516E1006E50E2 /* FBSDKLoginKit.framework */,
+				FA8FDDE61DE516E1006E50E2 /* FBSDKShareKit.framework */,
+				FA8FDE361DE5219D006E50E2 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8FDE4D1DE521C9006E50E2 /* SocialMediaAggregator_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FA8FDE5A1DE528B3006E50E2 /* SocialMediaAggregator_Widget.entitlements */,
+				FA8FDE4E1DE521C9006E50E2 /* TodayViewController.swift */,
+				FA8FDE501DE521C9006E50E2 /* MainInterface.storyboard */,
+				FA8FDE531DE521C9006E50E2 /* Info.plist */,
+			);
+			path = SocialMediaAggregator_Widget;
+			sourceTree = "<group>";
+		};
+		FAE7DB2F1E428BEA00EAD72D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8FDDB61DE51685006E50E2 /* ViewController.swift */,
+				FA2BBC831E9D1CB500CABC03 /* MenuController.swift */,
+				FA2BBC851E9D1F9500CABC03 /* TabBarController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FAE7DB301E428BFB00EAD72D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA2971741DEDC9C0009B5B65 /* Main.storyboard */,
+				FA8FDDBD1DE51685006E50E2 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAE7DB311E428C2A00EAD72D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FA8FDE301DE5209F006E50E2 /* SocialMediaAggregator.entitlements */,
+				FA8FDDC01DE51685006E50E2 /* Info.plist */,
+				FA8FDE2F1DE51B00006E50E2 /* SocialMediaAggregator-Bridging-Header.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		FAEA22C71E4A0D560046E71C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA22C81E4A0D760046E71C /* SocialCell.swift */,
+				FA2BBC871E9D24C200CABC03 /* SideWindowCell.swift */,
+				FA2BBC891E9F9AFD00CABC03 /* SideWindowProfile.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FAEA22CA1E4CB7980046E71C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA22CB1E4CB7A70046E71C /* Feed.swift */,
+				FAFAC1841EA7A0870068BCE1 /* TwitterLoader.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8FDDB01DE51685006E50E2 /* SocialMediaAggregator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8FDDD91DE51685006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregator" */;
+			buildPhases = (
+				FA8FDDAD1DE51685006E50E2 /* Sources */,
+				FA8FDDAE1DE51685006E50E2 /* Frameworks */,
+				FA8FDDAF1DE51685006E50E2 /* Resources */,
+				FA8FDE461DE5219D006E50E2 /* Embed App Extensions */,
+				FA8FDE641DE5C3D7006E50E2 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8FDE551DE521C9006E50E2 /* PBXTargetDependency */,
+			);
+			name = SocialMediaAggregator;
+			productName = SocialMediaAggregator;
+			productReference = FA8FDDB11DE51685006E50E2 /* SocialMediaAggregator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8FDDC41DE51685006E50E2 /* SocialMediaAggregatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8FDDDC1DE51685006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregatorTests" */;
+			buildPhases = (
+				FA8FDDC11DE51685006E50E2 /* Sources */,
+				FA8FDDC21DE51685006E50E2 /* Frameworks */,
+				FA8FDDC31DE51685006E50E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8FDDC71DE51685006E50E2 /* PBXTargetDependency */,
+			);
+			name = SocialMediaAggregatorTests;
+			productName = SocialMediaAggregatorTests;
+			productReference = FA8FDDC51DE51685006E50E2 /* SocialMediaAggregatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8FDDCF1DE51685006E50E2 /* SocialMediaAggregatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8FDDDF1DE51685006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregatorUITests" */;
+			buildPhases = (
+				FA8FDDCC1DE51685006E50E2 /* Sources */,
+				FA8FDDCD1DE51685006E50E2 /* Frameworks */,
+				FA8FDDCE1DE51685006E50E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8FDDD21DE51685006E50E2 /* PBXTargetDependency */,
+			);
+			name = SocialMediaAggregatorUITests;
+			productName = SocialMediaAggregatorUITests;
+			productReference = FA8FDDD01DE51685006E50E2 /* SocialMediaAggregatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FA8FDE341DE5219D006E50E2 /* SocialMediaAggregatorWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8FDE431DE5219D006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregatorWidget" */;
+			buildPhases = (
+				FA8FDE311DE5219D006E50E2 /* Sources */,
+				FA8FDE321DE5219D006E50E2 /* Frameworks */,
+				FA8FDE331DE5219D006E50E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialMediaAggregatorWidget;
+			productName = SocialMediaAggregatorWidget;
+			productReference = FA8FDE351DE5219D006E50E2 /* SocialMediaAggregatorWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FA8FDE4A1DE521C9006E50E2 /* SocialMediaAggregator_Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8FDE571DE521C9006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregator_Widget" */;
+			buildPhases = (
+				FA8FDE471DE521C9006E50E2 /* Sources */,
+				FA8FDE481DE521C9006E50E2 /* Frameworks */,
+				FA8FDE491DE521C9006E50E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialMediaAggregator_Widget;
+			productName = SocialMediaAggregator_Widget;
+			productReference = FA8FDE4B1DE521C9006E50E2 /* SocialMediaAggregator_Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8FDDA91DE51685006E50E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Johnson";
+				TargetAttributes = {
+					FA8FDDB01DE51685006E50E2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3WC8FH6S77;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					FA8FDDC41DE51685006E50E2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA8FDDB01DE51685006E50E2;
+					};
+					FA8FDDCF1DE51685006E50E2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA8FDDB01DE51685006E50E2;
+					};
+					FA8FDE341DE5219D006E50E2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3WC8FH6S77;
+						ProvisioningStyle = Automatic;
+					};
+					FA8FDE4A1DE521C9006E50E2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3WC8FH6S77;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FA8FDDAC1DE51685006E50E2 /* Build configuration list for PBXProject "SocialMediaAggregator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8FDDA81DE51685006E50E2;
+			productRefGroup = FA8FDDB21DE51685006E50E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8FDDB01DE51685006E50E2 /* SocialMediaAggregator */,
+				FA8FDDC41DE51685006E50E2 /* SocialMediaAggregatorTests */,
+				FA8FDDCF1DE51685006E50E2 /* SocialMediaAggregatorUITests */,
+				FA8FDE341DE5219D006E50E2 /* SocialMediaAggregatorWidget */,
+				FA8FDE4A1DE521C9006E50E2 /* SocialMediaAggregator_Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8FDDAF1DE51685006E50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BBC7C1E9C06A000CABC03 /* TwitterKitResources.bundle in Resources */,
+				FA2971761DEDC9C0009B5B65 /* Main.storyboard in Resources */,
+				FA8FDDBF1DE51685006E50E2 /* LaunchScreen.storyboard in Resources */,
+				FA8FDDBC1DE51685006E50E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDDC31DE51685006E50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDDCE1DE51685006E50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDE331DE5219D006E50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDE491DE521C9006E50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFAC1871EA7A4CD0068BCE1 /* TwitterKitResources.bundle in Resources */,
+				FA8FDE521DE521C9006E50E2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA8FDE641DE5C3D7006E50E2 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run d9523f1e3b0aef75d5b754042427cbc2dcf79b73 e1e38fbe64b10d3f213d7ec07553b47c00b3d2e2a2af8d8b55560595a13d6c0f";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8FDDAD1DE51685006E50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FDDB71DE51685006E50E2 /* ViewController.swift in Sources */,
+				FAEA22CC1E4CB7A70046E71C /* Feed.swift in Sources */,
+				FA8FDDB51DE51685006E50E2 /* AppDelegate.swift in Sources */,
+				FAEA22C91E4A0D760046E71C /* SocialCell.swift in Sources */,
+				FA2BBC881E9D24C200CABC03 /* SideWindowCell.swift in Sources */,
+				FA2BBC8A1E9F9AFD00CABC03 /* SideWindowProfile.swift in Sources */,
+				FAFAC1851EA7A0870068BCE1 /* TwitterLoader.swift in Sources */,
+				FA2BBC861E9D1F9500CABC03 /* TabBarController.swift in Sources */,
+				FA2BBC841E9D1CB500CABC03 /* MenuController.swift in Sources */,
+				FA8FDE7B1DE75E2B006E50E2 /* TweetFeed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDDC11DE51685006E50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FDDCA1DE51685006E50E2 /* SocialMediaAggregatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDDCC1DE51685006E50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FDDD51DE51685006E50E2 /* SocialMediaAggregatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDE311DE5219D006E50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8FDE471DE521C9006E50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FDE4F1DE521C9006E50E2 /* TodayViewController.swift in Sources */,
+				FA44D39E1EA7BF9A00AD1F33 /* Feed.swift in Sources */,
+				FA44D39F1EA817DC00AD1F33 /* SocialCell.swift in Sources */,
+				FAFAC1861EA7A0FB0068BCE1 /* TwitterLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8FDDC71DE51685006E50E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8FDDB01DE51685006E50E2 /* SocialMediaAggregator */;
+			targetProxy = FA8FDDC61DE51685006E50E2 /* PBXContainerItemProxy */;
+		};
+		FA8FDDD21DE51685006E50E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8FDDB01DE51685006E50E2 /* SocialMediaAggregator */;
+			targetProxy = FA8FDDD11DE51685006E50E2 /* PBXContainerItemProxy */;
+		};
+		FA8FDE551DE521C9006E50E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8FDE4A1DE521C9006E50E2 /* SocialMediaAggregator_Widget */;
+			targetProxy = FA8FDE541DE521C9006E50E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2971741DEDC9C0009B5B65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2971751DEDC9C0009B5B65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8FDDBD1DE51685006E50E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8FDDBE1DE51685006E50E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8FDE501DE521C9006E50E2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8FDE511DE521C9006E50E2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8FDDD71DE51685006E50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8FDDD81DE51685006E50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8FDDDA1DE51685006E50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SocialMediaAggregator/SocialMediaAggregator.entitlements;
+				DEVELOPMENT_TEAM = 3WC8FH6S77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SocialMediaAggregator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialMediaAggregator/SocialMediaAggregator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA8FDDDB1DE51685006E50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SocialMediaAggregator/SocialMediaAggregator.entitlements;
+				DEVELOPMENT_TEAM = 3WC8FH6S77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SocialMediaAggregator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialMediaAggregator/SocialMediaAggregator-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA8FDDDD1DE51685006E50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialMediaAggregatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMediaAggregator.app/SocialMediaAggregator";
+			};
+			name = Debug;
+		};
+		FA8FDDDE1DE51685006E50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialMediaAggregatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMediaAggregator.app/SocialMediaAggregator";
+			};
+			name = Release;
+		};
+		FA8FDDE01DE51685006E50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SocialMediaAggregatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SocialMediaAggregator;
+			};
+			name = Debug;
+		};
+		FA8FDDE11DE51685006E50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SocialMediaAggregatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SocialMediaAggregator;
+			};
+			name = Release;
+		};
+		FA8FDE441DE5219D006E50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3WC8FH6S77;
+				INFOPLIST_FILE = SocialMediaAggregatorWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregator.SocialMediaAggregatorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA8FDE451DE5219D006E50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3WC8FH6S77;
+				INFOPLIST_FILE = SocialMediaAggregatorWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJ.SocialMediaAggregator.SocialMediaAggregatorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FA8FDE581DE521C9006E50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SocialMediaAggregator_Widget/SocialMediaAggregator_Widget.entitlements;
+				DEVELOPMENT_TEAM = 3WC8FH6S77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SocialMediaAggregator_Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.SocialMediaAggregator.SocialMediaAggregator-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA8FDE591DE521C9006E50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SocialMediaAggregator_Widget/SocialMediaAggregator_Widget.entitlements;
+				DEVELOPMENT_TEAM = 3WC8FH6S77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SocialMediaAggregator_Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.SocialMediaAggregator.SocialMediaAggregator-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8FDDAC1DE51685006E50E2 /* Build configuration list for PBXProject "SocialMediaAggregator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8FDDD71DE51685006E50E2 /* Debug */,
+				FA8FDDD81DE51685006E50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8FDDD91DE51685006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8FDDDA1DE51685006E50E2 /* Debug */,
+				FA8FDDDB1DE51685006E50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8FDDDC1DE51685006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8FDDDD1DE51685006E50E2 /* Debug */,
+				FA8FDDDE1DE51685006E50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8FDDDF1DE51685006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8FDDE01DE51685006E50E2 /* Debug */,
+				FA8FDDE11DE51685006E50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8FDE431DE5219D006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregatorWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8FDE441DE5219D006E50E2 /* Debug */,
+				FA8FDE451DE5219D006E50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8FDE571DE521C9006E50E2 /* Build configuration list for PBXNativeTarget "SocialMediaAggregator_Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8FDE581DE521C9006E50E2 /* Debug */,
+				FA8FDE591DE521C9006E50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8FDDA91DE51685006E50E2 /* Project object */;
+}
